@@ -1,0 +1,3 @@
+Building:
+
+    ../configure --prefix=`pwd` --enable-static=yes --with-pic=yes --enable-sse2=yes

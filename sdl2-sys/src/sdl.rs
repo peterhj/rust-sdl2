@@ -14,7 +14,7 @@ mod mac {
 
 #[cfg(any(target_os="windows", target_os="linux", target_os="freebsd"))]
 mod others {
-    #[link(name="SDL2")]
+    #[link(name="SDL2", kind="static")]
     extern {}
 }
 
